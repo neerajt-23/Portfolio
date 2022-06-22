@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)"href="portf.css"> -->
+    <title>My works</title>
+    <style>
+        body {
+            background-image: url(22.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 2px;
+            padding: 3px;
+            height: 100px;
+        }
+        
+        .mid {
+            margin: 20px auto;
+            display: block;
+            width: 36%;
+            /* border: 2px solid rgb(21, 255, 0); */
+        }
+
+       
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            font-size: 18px;
+            display: inline-block;
+
+        }
+        
+        .navbar li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 0px 15px;
+            transition: all 1s ease-out;
+        }
+        @media (min-width:100px) and (max-width: 600px) {
+            .navbar li a {
+
+                font-size: 7px;
+                padding: 0px 0px;
+
+            }
+        }
+        .final {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .final a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 20px;
+            margin: 48px;
+            padding: 0px;
+            transition: all 0.5s ease-in-out;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        @media (min-width:100px) and (max-width: 600px) {
+            .final a {
+                font-size: 11px;
+            }
+        }
+
+        .final a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            /* text-decoration: underline; */
+            color: rgb(255, 255, 255);
+        }
+
+
+        .container {
+            border: 2px solid white;
+            margin: 27px 235px;
+             padding: 30px 129px;
+            width: 43%;
+            border-radius: 2px;
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+        }
+        @media (min-width:100px) and (max-width: 600px) {
+            .container {
+                /* border: 2px solid white; */
+                margin: 0px 0px;
+                padding: 0px 23px;
+                width: 85%;
+                font-size: 15px;
+                /* border-radius: 2px; */
+                color: black;
+            }
+        }
+        
+        .h1 p{
+            font-size: 40px;
+            transition: all 1s ease-out
+        }
+        @media (min-width:100px) and (max-width: 600px) {
+            .h1 p{
+                font-size: 30px;
+                /* padding: 2px 1px; */
+
+            }
+        }
+        
+    </style>
+
+<body>
+    <header class="header">
+
+        <!-- for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" ><b>Home<b></a></li>
+                <li><a href="my work.html" class="active"><b>My Works</b></a></li>
+                <li><a href="resume.html" ><b>Resume</b></a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="h1"><p>
+            You can have a look at my Achievements, My Works and Projects on my LinkedIn and GitHub accounts,<br>
+            <br>
+            So do visit them :)
+        </p></div>
+        <!-- </p>
+        <b>Links are here !</b>
+        </p> -->
+        <ul class="final">
+            <!-- <a href="https://mail.google.com/" target="blank">tneeraj2001@gmail.com</a> -->
+            <a href="https://www.linkedin.com/in/neeraj-tiwari-800144179/" target="_blank">Linkedin</a>
+            <a href="https://github.com/neerajt-23" target="blank">GitHub</a>
+            <!-- <a href="https://www.instagram.com/n_e_e_r_a_j_23/" target="blank">Instagram</a> -->
+        </ul>
+    </div>
+</body>
+
+</html>

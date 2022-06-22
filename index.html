@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="portf.css"> -->
+    <title>Neeraj Portfolio</title>
+    <style>
+        body {
+            background-image: url(back1.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 2px;
+            padding: 3px;
+            height: 100px;
+
+        }
+
+        @media (min-width:100px) and (max-width: 600px) {
+            body {
+                background-image: url(11.jpg);
+            }
+        }
+
+
+        .mid {
+            margin: 20px auto;
+            display: block;
+            width: 36%;
+            /* border: 2px solid rgb(21, 255, 0); */
+        }
+
+
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            font-size: 15px;
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 0px 15px;
+            transition: all 1s ease-out;
+        }
+
+        @media (max-width: 600px) {
+            .navbar li a {
+
+                font-size: 7px;
+                padding: 0px 0px;
+
+            }
+        }
+
+        .final {
+            display: flex;
+            justify-content: center;
+        }
+
+        .final a {
+            color: rgb(1, 0, 10);
+            text-decoration: none;
+            font-size: 15px;
+            margin: 26px;
+            padding: 0px;
+            transition: all 0.5s ease-in-out;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        @media (min-width:100px) and (max-width: 600px) {
+            .final a {
+                font-size: 11px;
+            }
+        }
+
+        .final a:hover {
+            color: rgb(172, 44, 5);
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            /* text-decoration: underline; */
+            color: rgb(185, 0, 0);
+        }
+
+
+        .container {
+            border: 2px solid white;
+            margin: 29px 60px;
+            padding: 17px 72px;
+            width: 43%;
+            font-size: 17px;
+            border-radius: 2px;
+            color: rgb(0, 0, 0);
+
+        }
+
+        @media (min-width:100px) and (max-width: 600px) {
+            .container {
+                /* border: 2px solid white; */
+                margin: 0px 0px;
+                padding: 0px 67px;
+                width: 86%;
+                font-size: 15px;
+                /* border-radius: 2px; */
+                color: black;
+            }
+        }
+
+        /* .container h2 {
+            text-align: start;
+            font-size: 30px;
+            color: black;
+            transition: all 1s ease-out;
+        }
+        .container h1 {
+            text-align: start;
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            ;
+        } */
+
+
+        .h1 p {
+            font-size: 30px;
+            transition: all 1s ease-out
+        }
+
+        @media (min-width:100px) and (max-width: 600px) {
+            .container h2 {
+                font-size: 18px;
+            }
+        }
+
+        .h2 p {
+            font-size: 40px;
+            transition: all 1s ease-out
+        }
+
+        @media (min-width:100px) and (max-width: 600px) {
+            .container h1 {
+                font-size: 14px;
+            }
+        }
+
+        .h1 p:hover {
+            transform: scale(0.8);
+        }
+
+        .h2 p:hover {
+            transform: scale(0.8);
+        }
+    </style>
+
+<body>
+    <header class="header">
+
+        <!-- for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active"><b>Home<b></a></li>
+                <li><a href="my work.html"><b>My Works</b></a></li>
+                <li><a href="resume.html"><b>Resume</b></a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="h1">
+            <p>Hi, I'm Neeraj Tiwari.</p>
+        </div>
+        <div class="h2">
+            <p>I am a Front-End Developer </p>
+        </div>
+
+        <p>
+            I am a B.tech Computer Science student from Lucknow, India,
+        </p>
+        <p>
+            I am Persuing my B.Tech from Shri Ramswaroop Memorial University, Lucknow.
+        </p>
+
+        <p>
+            “My hobbies are all creative…”<br>
+            <br>
+            I’ve always enjoyed painting, drawing and coding too, <br>
+            Because my field of study is technical, it’s good to spend time doing something completely different. <br>
+            And <br>
+            I enjoy being physically active, and spend a lot of time playing sports especially Football.
+
+        </p>
+        <p>
+            I can adopt dynamic Environments as per the requirement.
+
+        </p>
+        <p> As you have gone through my Introduction, now you can Proceed to my works and Resume, have a good day !!</p>
+        <p>
+            <b>You can Mail me on <b>tneeraj2001@gmail.com </b>or we can Connect through: </b>
+        </p>
+        <ul class="final">
+            <!-- <a href="https://mail.google.com/" target="blank">tneeraj2001@gmail.com</a> -->
+            <a href="https://www.linkedin.com/in/neeraj-tiwari-800144179/" target="_blank">Linkedin</a>
+            <a href="https://github.com/neerajt-23" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/n_e_e_r_a_j_23/" target="_blank">Instagram</a>
+        </ul>
+    </div>
+</body>
+
+</html>
